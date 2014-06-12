@@ -1,0 +1,39 @@
+Some basic commands for git
+
+/* Configure the variables */
+
+git conf --global user.name = amauryesparza
+git config --global user.email = amauryesparza@correo.com 
+
+/* Initialize a empty local repository (Locate on the directory)*/
+
+git init
+
+/* Show the status of the repository */
+
+git status
+
+/* For add a file into the version controller have to do this */
+
+git add file.txt //For add a single file.
+git add --all //For add all the file into the directory.
+
+/* Make a commit (It's like a coment for every file or group of files) */
+
+(NOTE: this is after add file)
+git commit -m "The message" 
+git commit --all -m "Add all the files"
+
+/* For connect the repository local to the repository distributed */
+
+git add origin https://github.com/AmauryEsparza/AprendiendoGithub
+
+/* For send the files to the remote repository */
+
+git push -u origin master
+
+
+
+
+
+
