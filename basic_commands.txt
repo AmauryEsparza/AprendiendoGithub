@@ -24,6 +24,11 @@ git add --all //For add all the file into the directory.
 git commit -m "The message" 
 git commit --all -m "Add all the files"
 
+
+/* BEFORE connect with a distributed repository have to create a keygen*/
+
+ssh-keygen
+
 /* For connect the repository local to the repository distributed */
 
 git add origin https://github.com/AmauryEsparza/AprendiendoGithub
